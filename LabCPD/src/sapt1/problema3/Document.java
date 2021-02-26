@@ -23,7 +23,7 @@ public class Document {
 
     public String toString() {
         StringBuilder builder = new StringBuilder("Documents: ");
-        documents.stream().forEach(element -> builder.append(element + " "));
+        documents.forEach(element -> builder.append(element).append(" "));
         return builder.toString();
     }
 }

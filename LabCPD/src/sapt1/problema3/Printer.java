@@ -1,7 +1,5 @@
 package sapt1.problema3;
 
-import sapt1.problema3.Document;
-
 public class Printer extends Thread {
 
     private final long delay;
