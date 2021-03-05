@@ -5,6 +5,7 @@ import java.util.Queue;
 
 public class Document {
     Queue<String> documents = new LinkedList<>();
+	
 
     public void elaborate(String docName) {
         System.out.println("Elaborate a document....." + docName);
